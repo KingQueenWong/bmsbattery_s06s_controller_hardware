@@ -1,0 +1,51 @@
+
+/*****************************************************/
+Type                    Component      Package        Publisher
+Mosfet:                 TK150E09NE     (TO-220AB)     Toshiba
+Current Sensor:         ACS711         (QFN)          Allegro
+LDO:                    LM317          (TO-220)       ST
+MCU:                    STM8S105C6T6   (LQFP48)       ST
+Operational Amplifier:  LM358          (SO8)          ST
+
+/*****************************************************/
+
+Pins connections to microcontroller
+
+? pin 2: resistor 2200R and a capacitor to GND. This pin goes to blue wire of undocumented connector with 2 wires (blue and black(GND))
+? pin 3: resistor 2200R and a capacitor to GND. Resistor 10k to VCC. This pin goes to a header pin that is not wired
+? pin 10: BRAKE - through one resistor, goes to BRAKE wire
+? pin 15: seems to stay always at 5V (Goes to a big diode..)
+? pin 16: CURRENT SHUNT - goes to pin 7 LM358 (shunt current)
+? pin 17: CURRENT PHASE B - goes to pin output of ACS711 (phase B current)
+? pin 18: THROTTLE - low pass filter and goes to XS pin on the board as also to the throttle. (0.8V-3.6V input)
+? pin 20: PWM pin phase A Yellow LOW. When motor very low speed, this pin is only on/off
+? pin 21: PWM pin phase B Green LOW
+? pin 22: PWM pin phase C Blue LOW
+? pin 23: BATTERY VOLTAGE
+? pin 24: seems to stay always at 2V
+? pin 25: goes to a pin on the board that is unconnected (near a cable for throttle)
+? pin 26: PWM pin phase C Blue HIGH
+? pin 27: PWM pin phase B Green HIGH
+? pin 28: PWM pin phase A Yellow HIGH
+? pin 29: goes to 2nd pin on the board that is unconnected (DDB header)
+? pin 30: SPEED - goes to speed sensor white wire
+? pin 31: GND
+? pin 32: VCC
+? pin 33: NC ??
+? pin 34: goes to 1st pin on the board that is unconnected (DDB header)
+? pin 35: goes to unconnected pin with label RX2
+? pin 36: NC ??
+? pin 37: goes to a header pin and seems that is always at 5V
+? pin 38: HALL SENSOR signal Blue
+? pin 39: HALL SENSOR signal Green
+? pin 40: HALL SENSOR signal Yellow
+? pin 41: PAS - go to yellow wire of PAS connector
+? pin 42: SWIM pin for flash/debug
+? pin 43: connect to a pin header on the board with label T22
+? pin 44: connect to a pin header on the board with label T23
+? pin 45: connect to a pin header on the board with label T24
+? pin 46: UART TX pin
+? pin 47: UART RX pin
+? pin 48: unknown, seems to always have 4.17V
+
+/*****************************************************/
