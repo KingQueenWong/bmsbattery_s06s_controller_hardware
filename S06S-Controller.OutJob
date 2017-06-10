@@ -49,7 +49,7 @@ Configuration1_Name1=OutputConfigurationParameter1
 Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
 
 [PublishSettings]
-OutputFilePath2=Project Outputs for Free Documents\S06S-Controller.PDF
+OutputFilePath2=D:\Altium Project\S06S-Controller\Project Outputs for S06S-Controller\S06S-Controller.PDF
 ReleaseManaged2=1
 OutputBasePath2=Project Outputs for S06S-Controller
 OutputPathMedia2=
@@ -61,7 +61,7 @@ OutputFileName2=S06S-Controller.PDF
 OutputFileNameMulti2=
 UseOutputNameForMulti2=1
 OutputFileNameSpecial2=
-OpenOutput2=0
+OpenOutput2=1
 PromptOverwrite2=1
 PublishMethod2=0
 ZoomLevel2=50
@@ -128,8 +128,8 @@ WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=Project Outputs for Free Documents\S06S-Controller.PDF
-OpenOutputs2=0
+RelativeOutputPath2=D:\Altium Project\S06S-Controller\Project Outputs for S06S-Controller\S06S-Controller.PDF
+OpenOutputs2=1
 RelativeOutputPath3=
 OpenOutputs3=1
 AddToProject3=1
